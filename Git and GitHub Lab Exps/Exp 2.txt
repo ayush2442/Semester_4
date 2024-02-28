@@ -1,0 +1,236 @@
+
+Ayush Pandey@Ayush MINGW64 ~
+$ cd "C:\Users\Ayush Pandey\git_example_file.java"
+bash: cd: C:\Users\Ayush Pandey\git_example_file.java: Not a directory
+
+Ayush Pandey@Ayush MINGW64 ~
+$ cd Prac_Class
+
+Ayush Pandey@Ayush MINGW64 ~/Prac_Class (main)
+$ git remote add origin https://github.com/ayush2442/Prac_Class.git
+error: remote origin already exists.
+
+Ayush Pandey@Ayush MINGW64 ~/Prac_Class (main)
+$ git checkout -b first_branch
+Switched to a new branch 'first_branch'
+
+Ayush Pandey@Ayush MINGW64 ~/Prac_Class (first_branch)
+$ git add .
+warning: adding embedded git repository: the-best-git-books
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> the-best-git-books
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached the-best-git-books
+hint:
+hint: See "git help submodule" for more information.
+
+Ayush Pandey@Ayush MINGW64 ~/Prac_Class (first_branch)
+$ git pull origin master
+fatal: couldn't find remote ref master
+
+Ayush Pandey@Ayush MINGW64 ~/Prac_Class (first_branch)
+$ git pull Prac_Class
+fatal: 'Prac_Class' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Ayush Pandey@Ayush MINGW64 ~/Prac_Class (first_branch)
+$ git pull ayushpandey2442
+fatal: 'ayushpandey2442' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Ayush Pandey@Ayush MINGW64 ~/Prac_Class (first_branch)
+$ git pull ayush2442
+fatal: 'ayush2442' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Ayush Pandey@Ayush MINGW64 ~/Prac_Class (first_branch)
+$ ls
+README.md  firstfile  fourthfile  secondfile  the-best-git-books/  thirdfile
+
+Ayush Pandey@Ayush MINGW64 ~/Prac_Class (first_branch)
+$ cd firstfile
+bash: cd: firstfile: Not a directory
+
+Ayush Pandey@Ayush MINGW64 ~/Prac_Class (first_branch)
+$ cd ..
+
+Ayush Pandey@Ayush MINGW64 ~
+$ git pull ayush2442
+fatal: not a git repository (or any of the parent directories): .git
+
+Ayush Pandey@Ayush MINGW64 ~
+$ cd new-github
+bash: cd: new-github: No such file or directory
+
+Ayush Pandey@Ayush MINGW64 ~
+$ ls
+ AppData/                 NTUSER.DAT
+'Application Data'@       NTUSER.DAT{a5d1fdac-b4f4-11ed-b6a0-b9cfbd681c44}.TM.blf
+ CLionProjects/           NTUSER.DAT{a5d1fdac-b4f4-11ed-b6a0-b9cfbd681c44}.TMContainer0000000000000000000
+ Contacts/                NTUSER.DAT{a5d1fdac-b4f4-11ed-b6a0-b9cfbd681c44}.TMContainer0000000000000000000
+ Cookies@                 NetHood@
+ Documents/               OneDrive/
+ Downloads/               OpenVPN/
+ Favorites/               Prac_Class/
+ IdeaProjects/            PrintHood@
+ Inheritance              PycharmProjects/
+ IntelGraphicsProfiles/   Recent@
+'Java Program VS Code'/  'Saved Games'/
+ Links/                   Searches/
+'Local Settings'@         SendTo@
+ Music/                  'Start Menu'@
+'My Documents'@           Templates@
+
+Ayush Pandey@Ayush MINGW64 ~
+$ cd first_git
+
+Ayush Pandey@Ayush MINGW64 ~/first_git
+$ vi local_git_1.txt
+
+Ayush Pandey@Ayush MINGW64 ~/first_git
+$ git checkout first_branch
+fatal: not a git repository (or any of the parent directories): .git
+
+Ayush Pandey@Ayush MINGW64 ~/first_git
+$ git add local_git_1.txt
+fatal: not a git repository (or any of the parent directories): .git
+
+Ayush Pandey@Ayush MINGW64 ~/first_git
+$ ls
+local_git_1.txt
+
+Ayush Pandey@Ayush MINGW64 ~/first_git
+$ git add local_git_1.txt
+fatal: not a git repository (or any of the parent directories): .git
+
+Ayush Pandey@Ayush MINGW64 ~/first_git
+$ cd Prac_Class
+bash: cd: Prac_Class: No such file or directory
+
+Ayush Pandey@Ayush MINGW64 ~/first_git
+$ cd Prac_Class
+bash: cd: Prac_Class: No such file or directory
+
+Ayush Pandey@Ayush MINGW64 ~/first_git
+$ cd..
+bash: cd..: command not found
+
+Ayush Pandey@Ayush MINGW64 ~/first_git
+$ cd ..
+
+Ayush Pandey@Ayush MINGW64 ~
+$ cd Prac_Class
+
+Ayush Pandey@Ayush MINGW64 ~/Prac_Class (first_branch)
+$ ls
+README.md  firstfile  fourthfile  secondfile  the-best-git-books/  thirdfile
+
+Ayush Pandey@Ayush MINGW64 ~/Prac_Class (first_branch)
+$ vi local_git_1.txt
+
+Ayush Pandey@Ayush MINGW64 ~/Prac_Class (first_branch)
+$ git checkout first_brach
+error: pathspec 'first_brach' did not match any file(s) known to git
+
+Ayush Pandey@Ayush MINGW64 ~/Prac_Class (first_branch)
+$ git checkout first_branch
+Already on 'first_branch'
+A       firstfile
+A       fourthfile
+A       secondfile
+A       the-best-git-books
+A       thirdfile
+
+Ayush Pandey@Ayush MINGW64 ~/Prac_Class (first_branch)
+$ git add local_git_1.txt
+
+Ayush Pandey@Ayush MINGW64 ~/Prac_Class (first_branch)
+$ git commit -m "second version"
+[first_branch ae95035] second version
+ 6 files changed, 2 insertions(+)
+ create mode 100644 firstfile
+ create mode 100644 fourthfile
+ create mode 100644 local_git_1.txt
+ create mode 100644 secondfile
+ create mode 160000 the-best-git-books
+ create mode 100644 thirdfile
+
+Ayush Pandey@Ayush MINGW64 ~/Prac_Class (first_branch)
+$ git status
+On branch first_branch
+nothing to commit, working tree clean
+
+Ayush Pandey@Ayush MINGW64 ~/Prac_Class (first_branch)
+$ ls
+README.md  firstfile  fourthfile  local_git_1.txt  secondfile  the-best-git-books/  thirdfile
+
+Ayush Pandey@Ayush MINGW64 ~/Prac_Class (first_branch)
+$ git push first_branch
+fatal: 'first_branch' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Ayush Pandey@Ayush MINGW64 ~/Prac_Class (first_branch)
+$ cd ..
+
+Ayush Pandey@Ayush MINGW64 ~
+$ cd first_branch
+bash: cd: first_branch: No such file or directory
+
+Ayush Pandey@Ayush MINGW64 ~
+$ cd Prac_Class
+
+Ayush Pandey@Ayush MINGW64 ~/Prac_Class (first_branch)
+$ git push Prac_Class
+fatal: 'Prac_Class' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Ayush Pandey@Ayush MINGW64 ~/Prac_Class (first_branch)
+$ git checkout first_branch
+Already on 'first_branch'
+
+Ayush Pandey@Ayush MINGW64 ~/Prac_Class (first_branch)
+$ git checkout origin
+warning: unable to rmdir 'the-best-git-books': Directory not empty
+Note: switching to 'origin'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 6c54058 Initial commit
+
+Ayush Pandey@Ayush MINGW64 ~/Prac_Class ((6c54058...))
+$ git
