@@ -1,0 +1,125 @@
+//Exp 1 GIT AND HUB
+
+
+
+
+Ayush Pandey@Ayush MINGW64 ~
+$ git config --global user.name "ayush2442"
+
+Ayush Pandey@Ayush MINGW64 ~
+$ git config --global user.email "ayushpandey2442@gmail.com"
+
+Ayush Pandey@Ayush MINGW64 ~
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+core.autocrlf=false
+core.fscache=true
+core.symlinks=false
+core.fsmonitor=true
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+core.editor="C:\Users\Ayush Pandey\AppData\Local\Programs\Microsoft VS Code\bin\code" --wait
+user.name=ayush2442
+user.email=ayushpandey2442@gmail.com
+
+Ayush Pandey@Ayush MINGW64 ~
+$ git clone https://github.com/ayush2442/Prac_Class.git
+Cloning into 'Prac_Class'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+Ayush Pandey@Ayush MINGW64 ~
+$ ls
+ AppData/                                                                                       OpenVPN/
+'Application Data'@                                                                             Prac_Class/
+ CLionProjects/                                                                                 PrintHood@
+ Contacts/                                                                                      PycharmProjects/
+ Cookies@                                                                                       Recent@
+ Documents/                                                                                    'Saved Games'/
+ Downloads/                                                                                     Searches/
+ Favorites/                                                                                     SendTo@
+ IdeaProjects/                                                                                 'Start Menu'@
+ Inheritance                                                                                    Templates@
+ IntelGraphicsProfiles/                                                                         Videos/
+'Java Program VS Code'/                                                                        'VirtualBox VMs'/
+ Links/                                                                                         ansel/
+'Local Settings'@                                                                               buton.html
+ Music/                                                                                         button.java
+'My Documents'@                                                                                 inher.c++
+ NTUSER.DAT                                                                                     inheri.cpp
+ NTUSER.DAT{a5d1fdac-b4f4-11ed-b6a0-b9cfbd681c44}.TM.blf                                        ntuser.dat.LOG1
+ NTUSER.DAT{a5d1fdac-b4f4-11ed-b6a0-b9cfbd681c44}.TMContainer00000000000000000001.regtrans-ms   ntuser.dat.LOG2
+ NTUSER.DAT{a5d1fdac-b4f4-11ed-b6a0-b9cfbd681c44}.TMContainer00000000000000000002.regtrans-ms   ntuser.ini
+ NetHood@                                                                                       version
+ OneDrive/
+
+Ayush Pandey@Ayush MINGW64 ~
+$ cd Prac_Class
+
+Ayush Pandey@Ayush MINGW64 ~/Prac_Class (main)
+$ ls
+README.md
+
+Ayush Pandey@Ayush MINGW64 ~/Prac_Class (main)
+$ touch firstfile secondfile thirdfile fourthfile
+
+Ayush Pandey@Ayush MINGW64 ~/Prac_Class (main)
+$ ls
+README.md  firstfile  fourthfile  secondfile  thirdfile
+
+Ayush Pandey@Ayush MINGW64 ~/Prac_Class (main)
+$ ls
+README.md  firstfile  fourthfile  secondfile  thirdfile
+
+Ayush Pandey@Ayush MINGW64 ~/Prac_Class (main)
+$ git clone https://github.com/ayush2442/the-best-git-books.git
+Cloning into 'the-best-git-books'...
+remote: Enumerating objects: 27, done.
+error: RPC failed; curl 92 HTTP/2 stream 5 was not closed cleanly: CANCEL (err 8)
+error: 7924 bytes of body are still expected
+fetch-pack: unexpected disconnect while reading sideband packet
+fatal: early EOF
+fatal: fetch-pack: invalid index-pack output
+
+Ayush Pandey@Ayush MINGW64 ~/Prac_Class (main)
+$ git clone https://github.com/ayush2442/the-best-git-books.git
+Cloning into 'the-best-git-books'...
+remote: Enumerating objects: 27, done.
+error: 5750 bytes of body are still expected 356.00 KiB/s
+fetch-pack: unexpected disconnect while reading sideband packet
+fatal: early EOF
+fatal: fetch-pack: invalid index-pack output
+
+Ayush Pandey@Ayush MINGW64 ~/Prac_Class (main)
+$ git clone https://github.com/ayush2442/the-best-git-books.git
+Cloning into 'the-best-git-books'...
+remote: Enumerating objects: 27, done.
+error: RPC failed; curl 56 Recv failure: Connection was reset
+error: 889 bytes of body are still expected
+fetch-pack: unexpected disconnect while reading sideband packet
+fatal: early EOF
+fatal: fetch-pack: invalid index-pack output
+
+Ayush Pandey@Ayush MINGW64 ~/Prac_Class (main)
+$ git clone https://github.com/ayush2442/the-best-git-books.git
+Cloning into 'the-best-git-books'...
+remote: Enumerating objects: 27, done.
+remote: Total 27 (delta 0), reused 0 (delta 0), pack-reused 27
+Receiving objects: 100% (27/27), 92.13 MiB | 952.00 KiB/s, done.
+Resolving deltas: 100% (2/2), done.
+
+Ayush Pandey@Ayush MINGW64 ~/Prac_Class (main)
+$ pwd
+/c/Users/Ayush Pandey/Prac_Class
+
