@@ -46,3 +46,23 @@ EXPERIMENT 9 - [LINK](https://github.com/ayush2442/Semester_4/tree/main/Design%2
 EXPERIMENT 10 - [LINK](https://github.com/ayush2442/Semester_4/tree/main/Design%20%26%20Analysis%20of%20Algorithm/Experiment%2010)
 
 AGILE - [LINK](https://github.com/ayush2442/Semester_4/tree/main/Agile_Practices_Exp)
+
+Experiment 1 - [LINK](https://github.com/ayush2442/Semester_4/tree/main/Agile_Practices_Exp/Experiment%201)
+
+Experiment 2 - [LINK](https://github.com/ayush2442/Semester_4/tree/main/Agile_Practices_Exp/Experiment%202)
+
+Experiment 3 - [LINK](https://github.com/ayush2442/Semester_4/tree/main/Agile_Practices_Exp/Experiment%203)
+
+Experiment 4 - [LINK](https://github.com/ayush2442/Semester_4/tree/main/Agile_Practices_Exp/Experiment%204)
+
+Experiment 5 - [LINK](https://github.com/ayush2442/Semester_4/tree/main/Agile_Practices_Exp/Experiment%205)
+
+Experiment 6 - [LINK](https://github.com/ayush2442/Semester_4/tree/main/Agile_Practices_Exp/Experiment%206)
+
+Experiment 7 - [LINK](https://github.com/ayush2442/Semester_4/tree/main/Agile_Practices_Exp/Experiment%207)
+
+Experiment 8 - [LINK](https://github.com/ayush2442/Semester_4/tree/main/Agile_Practices_Exp/Experiment%208)
+
+Experiment 9 - [LINK](https://github.com/ayush2442/Semester_4/tree/main/Agile_Practices_Exp/Experiment%209)
+
+Experiment 10 - [LINK](https://github.com/ayush2442/Semester_4/tree/main/Agile_Practices_Exp/Experiment%2010)
