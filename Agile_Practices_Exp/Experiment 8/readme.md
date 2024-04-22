@@ -1,71 +1,58 @@
-Experiment 7:           TO STUDY VERSION CONTROL TOOL -- GIT
+Experiment 8: to study version control tool – GIT
+ 
 
 THEORY:
 
+Version control is the linchpin of modern software development. It allows teams to work on projects simultaneously without stepping on each other’s toes. Among the various version control systems available, Git stands out as one of the most powerful and widely-used. This guide aims to demystify Git, providing a practical understanding of how to leverage its features.
 
+What is Git? 🧩
 
- “version control system” 
+Git is a distributed version control system created by Linus Torvalds, the founder of Linux. It enables multiple developers to work on the same project simultaneously, tracking changes, merging code, and even reverting to previous versions when necessary. Let’s dive into the fundamental concepts:
 
-Version control systems are a category of software tools that helps in recording changes made to files by keeping a track of modifications done in the code. 
+Repositories
 
-Version Control system is so Important
+A Git repository is the heart of your project, containing all the files and their revision history. You can create a repository locally or clone an existing one from platforms like GitHub or GitLab.
 
-As we know that a software product is developed in collaboration by a group of developers they might be located at different locations and each one of them contributes to some specific kind of functionality/features. So in order to contribute to the product, they made modifications to the source code(either by adding or removing). A version control system is a kind of software that helps the developer team to efficiently communicate and manage(track) all the changes that have been made to the source code along with the information like who made and what changes have been made. A separate branch is created for every contributor who made the changes and the changes aren’t merged into the original source code unless all are analyzed as soon as the changes are green signaled they merged to the main source code. It not only keeps source code organized but also improves productivity by making the development process smooth.
+Branches
 
-Basically Version control system keeps track on changes made on a particular software and take a snapshot of every modification. Let’s suppose if a team of developer add some new functionalities in an application and the updated version is not working properly so as the version control system keeps track of our work so with the help of version control system we can omit the new changes and continue with the previous version.
+Branching in Git allows you to create parallel versions of a repository. It’s useful for working on new features or testing without affecting the main project.
 
-Benefits of the version control system:
+Commits
 
-Enhances the project development speed by providing efficient collaboration,
-Leverages the productivity, expedites product delivery, and skills of the employees through better communication and assistance,
-Reduce possibilities of errors and conflicts meanwhile project development through traceability to every small change,
-Employees or contributors of the project can contribute from anywhere irrespective of the different geographical locations through this VCS,
-For each different contributor to the project, a different working copy is maintained and not merged to the main file unless the working copy is validated. The most popular example is Git, Helix core, Microsoft TFS,
-Helps in recovery in case of any disaster or contingent situation,
-Informs us about Who, What, When, Why changes have been made.
-Use of Version Control System: 
+A commit is like a snapshot of your code at a particular point in time. It’s a record of what changes were made and by whom.
 
-A repository: It can be thought of as a database of changes. It contains all the edits and historical versions (snapshots) of the project.
-Copy of Work (sometimes called as checkout): It is the personal copy of all the files in a project. You can edit to this copy, without affecting the work of others and you can finally commit your changes to a repository when you are done making your changes.
-Working in a group: Consider yourself working in a company where you are asked to work on some live project. You can’t change the main code as it is in production, and any change may cause inconvenience to the user, also you are working in a team so you need to collaborate with your team to and adapt their changes. Version control helps you with the, merging different requests to main repository without making any undesirable changes. You may test the functionalities without putting it live, and you don’t need to download and set up each time, just pull the changes and do the changes, test it and merge it back. It may be visualized as. 
+Common Git Commands
 
+Understanding Git requires familiarity with its command-line interface. Here’s a rundown of essential commands:
 
- 
+git init: Initialize a new Git repository.
+git clone: Clone an existing repository.
+git add: Stage changes for commit.
+git commit: Save staged changes along with a commit message.
+git push: Push commits to a remote repository.
+git pull: Fetch and merge changes from a remote repository.
+Collaborative Workflows
 
-Types of Version Control Systems: 
+Git supports various workflows to facilitate collaboration:
 
-Local Version Control Systems
-Centralized Version Control Systems
-Distributed Version Control Systems
-Local Version Control Systems: It is one of the simplest forms and has a database that kept all the changes to files under revision control. RCS is one of the most common VCS tools. It keeps patch sets (differences between files) in a special format on disk. By adding up all the patches it can then re-create what any file looked like at any point in time. 
+Feature Branch Workflow
 
-Centralized Version Control Systems: Centralized version control systems contain just one repository globally and every user need to commit for reflecting one’s changes in the repository. It is possible for others to see your changes by updating. 
+Developers create separate branches for each new feature or bug fix, merging them back into the main codebase once complete.
 
-Two things are required to make your changes visible to others which are:  
+Gitflow Workflow 
 
-You commit
-They update
+A robust workflow that defines different branches for features, releases, and hotfixes, creating a structured development process.
 
+Forking Workflow
 
-The benefit of CVCS (Centralized Version Control Systems) makes collaboration amongst developers along with providing an insight to a certain extent on what everyone else is doing on the project. It allows administrators to fine-grained control over who can do what. 
+Often used in open-source projects, this workflow involves contributors forking a project, making changes, and then submitting a pull request.
 
-It has some downsides as well which led to the development of DVS. The most obvious is the single point of failure that the centralized repository represents if it goes down during that period collaboration and saving versioned changes is not possible. What if the hard disk of the central database becomes corrupted, and proper backups haven’t been kept? You lose absolutely everything. 
+Best Practices 
 
-Distributed Version Control Systems: Distributed version control systems contain multiple repositories. Each user has their own repository and working copy. Just committing your changes will not give others access to your changes. This is because commit will reflect those changes in your local repository and you need to push them in order to make them visible on the central repository. Similarly, When you update, you do not get others’ changes unless you have first pulled those changes into your repository. 
+Write clear, descriptive commit messages.
+Regularly pull changes from the main repository to stay up-to-date.
+Utilize branches to keep different aspects of development isolated.
+Embrace code review as a way to maintain code quality.
+Conclusion 
 
-To make your changes visible to others, 4 things are required:  
-
-You commit
-You push
-They pull
-They update
-The most popular distributed version control systems are Git, and Mercurial. They help us overcome the problem of single point of failure.  
-
-
-
-Purpose of Version Control: 
-
-Multiple people can work simultaneously on a single project. Everyone works on and edits their own copy of the files and it is up to them when they wish to share the changes made by them with the rest of the team.
-It also enables one person to use multiple computers to work on a project, so it is valuable even if you are working by yourself.
-It integrates the work that is done simultaneously by different members of the team. In some rare cases, when conflicting edits are made by two people to the same line of a file, then human assistance is requested by the version control system in deciding what should be done.
-Version control provides access to the historical versions of a project. This is insurance against computer crashes or data loss. If any mistake is made, you can easily roll back to a previous version. It is also possible to undo specific edits that too without losing the work done in the meanwhile. It can be easily known when, why, and by whom any part of a file was edited.
+Understanding Git is vital for modern development, whether you’re a solo developer or part of a large team. Its robust feature set, combined with best practices, can streamline the development process, enhance collaboration, and ensure the integrity of your code. Start using Git today, and you’ll soon appreciate the efficiency and control it brings to your workflow. 
